@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Launch</title>
+    <!-- Styling -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+        }
+        .launch-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #5a8b7a; /* Custom button color */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .launch-button:hover {
+            background-color: #3d6155;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>We Are Launching!</h1>
+        <!-- Launch Now Button -->
+        <a href="https://www.lillamb.in/" class="launch-button">Launch Now</a>
+    </div>
+</body>
+</html>
